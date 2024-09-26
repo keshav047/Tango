@@ -1,0 +1,52 @@
+*{
+    align-items: center !important;
+    
+}
+
+.blank{
+    background: #2FC822;
+    height: 28px;
+}
+
+.btn{
+    padding: 1px 10px !important;
+    height: 35px;
+}
+
+li a{
+  color: white;
+  text-decoration: none !important;
+}
+
+.nav3{
+    display:flex;
+    justify-content: center;
+    background-color: #34AD54;
+}
+
+ul{
+    margin-bottom: 0px !important;
+}
+
+li{
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    color: white !important;
+}
+
+
+@media (max-width: 576px) {
+    .nav3 ul {
+      flex-direction: column; /* Stack the navigation links vertically */
+      align-items: center;    /* Center align for smaller screens */
+    }
+  
+    .nav3 li {
+      padding: 10px 0; /* Add some space between items */
+    }
+  
+    .nav1 .container {
+      padding: 0; /* Remove container padding for smaller devices */
+    }
+  }

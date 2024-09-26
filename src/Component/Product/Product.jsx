@@ -1,8 +1,8 @@
 import React from "react";
 import Seed from "../../assets/seed.png";
-import Tech2 from "../../assets/Tech2.png";
-import Tech from "../../assets/Tech.png";
-import Masala from "../../assets/Masala.png";
+import Tech2 from "../../assets/tech2.png";
+import Tech from "../../assets/tech.png";
+import Masala from "../../assets/masala.png";
 // import Farmer from "../../assets/Farmer.png";
 
 function Product() {

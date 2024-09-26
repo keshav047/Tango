@@ -1,5 +1,5 @@
 .Hero{
-    background:url("../../assets/hero.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background:url("../../assets/Hero.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-size: cover;
     background-repeat: no-repeat;
     height: 77vh;

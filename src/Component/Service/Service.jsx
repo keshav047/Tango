@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Fresh from "../../assets/fresh.png";
+import Fresh from "../../assets/Fresh.png";
 import Fruits from "../../assets/Fruits.png";
-import Plan from "../../assets/plan.png";
-import Veg from "../../assets/veg.png";
-import Cattel from "../../assets/cattel.png";
+import Plan from "../../assets/Plan.png";
+import Veg from "../../assets/Veg.png";
+import Cattel from "../../assets/Cattel.png";
 
 function Service() {
   const Data = [

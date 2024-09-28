@@ -1,10 +1,12 @@
 import React from 'react'
-import Vegitable from './Vegitable';
-import Fruits from './Fruits';
-import Fertilizer from './Fertilizer';
-import Seads from './Seads';
+// import Vegitable from './Vegitable';
+// import Fruits from './Fruits';
+// import Fertilizer from './Fertilizer';
+// import Seads from './Seads';
+
 import Hero from './Hero';
-import ProductSearch from './ProductSearch';
+// import ProductSearch from './ProductSearch';
+import ProductOne from './ProductOne';
 
 
 function Product() {
@@ -13,11 +15,12 @@ function Product() {
     <>
       
       <Hero />
-      <ProductSearch />
-      <Fruits />
+      {/* <ProductSearch /> */}
+      <ProductOne />
+      {/* <Fruits />
       <Vegitable />
       <Fertilizer />
-      <Seads />
+      <Seads /> */}
 
 
     </>

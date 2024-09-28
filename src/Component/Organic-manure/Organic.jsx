@@ -27,7 +27,7 @@ function Organic() {
       backgroundImage: organicFoodImage
     },
     {
-      title: "Organic Farming",
+      title: "Organic  Manure",
       description: "Organic manure enhances soil fertility and promotes sustainable plant growth. It enriches the soil with nutrients, improves structure, and supports beneficial microbes. As an eco-friendly alternative to chemical fertilizers, it fosters long-term soil health in organic farming......",
       buttonText: "Know More",
       backgroundImage: organicFarmingImage

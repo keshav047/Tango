@@ -9,7 +9,7 @@ function Product() {
   const data = [
     {
       Image: Seed,
-      title: "Seeds",
+      title: "Organic Manure",
       description:
         "Grow Naturally, Choose Organic Seeds for a Future!",
       buttonText: "View More",

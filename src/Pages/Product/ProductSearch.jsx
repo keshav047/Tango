@@ -1,18 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';  // Import Link from react-router-dom
-import Fruits from './Fruits';
 
-function ProductSearch() {
+function ProductSearch({ onCategoryChange }) {
   return (
-    <div className='Container bg-body-secondary d-flex  justify-content-center'>
-      <ul className='text-dark d-flex py-4 gap-5'>
-        <li><button className='btn btn-success'>All</button></li>
-        <li><button className='btn btn-outline-success'>Fruits</button></li>
-        <li><button className='btn btn-outline-success'>Vegitable</button></li>
-        <li><button className='btn btn-outline-success'>Fertilizer</button></li>
-        <li><button className='btn btn-outline-success'>Seads</button></li>
-      </ul>
-    </div>
+    <div className="container-fluid d-flex justify-content-center">
+  <div className=" overflow-auto">
+    <ul className="text-dark d-flex flex-nowrap py-4 gap-3">
+      <li>
+        <button className="btn btn-success text-dark" onClick={() => onCategoryChange('All')}>
+          All
+        </button>
+      </li>
+      <li>
+        <button className="btn btn-outline-success text-dark" onClick={() => onCategoryChange('Fruits')}>
+          Fruits
+        </button>
+      </li>
+      <li>
+        <button className="btn btn-outline-success text-dark" onClick={() => onCategoryChange('Vegetables')}>
+          Vegetables
+        </button>
+      </li>
+      <li>
+        <button className="btn btn-outline-success text-dark" onClick={() => onCategoryChange('Fertilizers')}>
+          Fertilizers
+        </button>
+      </li>
+      <li>
+        <button className="btn btn-outline-success text-dark" onClick={() => onCategoryChange('Seeds')}>
+          Seeds
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+
   );
 }
 

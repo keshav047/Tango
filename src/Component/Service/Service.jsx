@@ -16,33 +16,33 @@ function Service() {
       backgroundImage: Fresh,
     },
     {
-      title: "Fresh Vegetables",
+      title: "Organic Dairy Products",
       description:
         "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
       buttonText: "Know More",
       backgroundImage: Fruits,
     },
-    {
-      title: "Fresh Vegetables",
-      description:
-        "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
-      buttonText: "Know More",
-      backgroundImage: Plan,
-    },
-    {
-      title: "Fresh Vegetables",
-      description:
-        "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
-      buttonText: "Know More",
-      backgroundImage: Cattel,
-    },
-    {
-      title: "Fresh Vegetables",
-      description:
-        "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
-      buttonText: "Know More",
-      backgroundImage: Veg,
-    },
+    // {
+    //   title: "Fresh Vegetables",
+    //   description:
+    //     "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
+    //   buttonText: "Know More",
+    //   backgroundImage: Plan,
+    // },
+    // {
+    //   title: "Fresh Vegetables",
+    //   description:
+    //     "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
+    //   buttonText: "Know More",
+    //   backgroundImage: Cattel,
+    // },
+    // {
+    //   title: "Fresh Vegetables",
+    //   description:
+    //     "Savor the flavor of freshly picked, organic vegetables that are cultivated naturally",
+    //   buttonText: "Know More",
+    //   backgroundImage: Veg,
+    // },
   ];
 
   return (

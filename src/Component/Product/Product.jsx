@@ -16,20 +16,20 @@ function Product() {
     },
     {
       Image: Tech2,
-      title: "Fertilizer",
+      title: "Organic Manure",
       description: "Feed Your Soil Naturally with Organic Fertilizer.",
       buttonText: "View More",
     },
-    {
-      Image: Tech,
-      title: "Equipment",
-      description: "Equip Your Farm Naturally for Sustainable Growth",
-      buttonText: "View More",
-    },
+    // {
+    //   Image: Tech,
+    //   title: "Equipment",
+    //   description: "Equip Your Farm Naturally for Sustainable Growth",
+    //   buttonText: "View More",
+    // },
     {
       Image: Masala,
-      title: "Remedies",
-      description: "Heal Your Crops with Nature's Natural Remedies.",
+      title: "Remedies ",
+      description: "(Coming Soon..).",
       buttonText: "View More",
     },
   ];
